@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'DungGeunMo';
     src: local('DungGeunMo'),
-    url('DungGeunMo.eot'),
-    url('DungGeunMo.woff') format('woff'),
-    url('DungGeunMo.woff2') format('woff2');
+    url('fonts/DungGeunMo.eot'),
+    url('fonts/DungGeunMo.woff') format('woff'),
+    url('fonts/DungGeunMo.woff2') format('woff2');
 }
 
 body{
