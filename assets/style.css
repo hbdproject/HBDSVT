@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'DungGeunMo';
+    src: local('DungGeunMo'),
+    url('DungGeunMo.eot'),
+    url('DungGeunMo.woff') format('woff'),
+    url('DungGeunMo.woff2') format('woff2');
+}
+
+body{
+    background-color: #e8f0ff;
+    text-align: center;
+    font-family: 'DungGeunMo';
+    margin: 0 25px;
+}
+
+ul{
+    margin:0 0;
+    list-style:none;
+    padding: 0 0;
+}
+
+li{
+    list-style: none;
+    line-height:80px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    padding-left: 0;
+    padding-right:0;
+    padding-top:140px;
+    padding-bottom:20px;
+    height: 70px;
+}
+
+.header h1{
+    font-size: 30px;
+    height: 50px;
+    margin:0 0;
+}
+
+.header span{
+    font-size:larger;
+}
+
+.header p{
+    font-size: 14px;
+    margin: 0 0;
+
+}
+
+#question{
+    font-size: 20px;
+    height: 80px;
+}
+
+.type, .quiz{
+    padding-bottom:10px;
+}
+
+button{
+    border-radius: 5px;
+    background-color: white;
+    font-family: 'DungGeunMo';
+    text-align: center;
+}
+
+.btn_type, .btn_quiz{
+    width: 200px;
+    height: 50px;
+}
+
+.back_main{
+    text-align: center;
+    line-height: 50px;
+    margin: 20px 0;
+}
+
+.btn_main{
+    width: 200px;
+    height: 50px;
+}
+
+.btn_type:hover, .btn_quiz:hover, .btn_main:hover{
+    background-color: #f8cacc;
+    color:white;
+}
+
+#link{
+    padding: 35px 0;
+}
+
+.etc_link{
+    text-align: center;
+    line-height: 30px;
+    margin: 20px 0;
+}
+
+.btn_link,.btn_docs{
+    width: 130px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+
+.btn_link:hover,.btn_docs:hover{
+    color: #8da4d0;
+}
+
+footer{
+    width: 100%;
+    font-size: 12px;
+    color:slategrey;
+    position:fixed;
+    bottom:0;
+    left: 0;
+    margin: 25px 0;
+}
+
+.waiting h1{
+    font-size: 1.1em;
+    font-weight: 100;
+}

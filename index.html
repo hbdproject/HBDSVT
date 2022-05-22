@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HBD SVT</title>
+        <link rel="stylesheet" href="./assets/style.css">
+        
+        <script>
+            //메인 트위터로 공유하기
+            function shareTwitter() {
+                var sendText = "SVT 사이버 방석 퀴즈에 도전하세요!"; // 전달할 텍스트
+                var sendUrl = "https://hbdproject.github.io/HBDSVT/"; // 전달할 URL
+                window.open("https://twitter.com/intent/tweet?text=" + sendText + "&url=" + sendUrl);
+            }
+        </script>
+    </head>
+    <body>
+        <!-- 타이틀-->
+        <div class="header">
+            <h1>
+                <span>SVT</span> 사이버 방석 퀴즈
+            </h1>    
+        </div>
+
+        <!-- 유형 선택-->
+        <div class="type">
+            <ul>
+                <li>
+                    <a href="hiphop.html">
+                        <button class="btn_type">힙합팀</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="perform.html">
+                        <button class="btn_type">퍼포먼스팀(준비 중)</button>
+                    </a>
+                </li>
+                <li>
+                    <a href="vocal.html">
+                        <button class="btn_type">보컬팀(준비 중)</button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- 링크 공유-->
+        <div class="link">
+            <a href="javascript:shareTwitter()" class="btn_link">
+                트위터로 공유하기
+            </a>
+
+            <a href="https://forms.gle/FpJBuXAhqjgYfHRc9" target="_blank" class="btn_docs">
+                문제 출제 도와주기
+            </a>
+        </div>
+
+        <!-- 푸터-->
+        <footer>
+            <p>
+                twitter @hbd_project
+            </p>
+        </footer>
+    </body>
+
+    <script type="text/javascript" src="./js/common.js"></script>
+</html>

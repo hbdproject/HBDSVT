@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HBD SVT</title>
+        <link rel="stylesheet" href="./assets/style.css">
+    </head>
+    <body>
+
+        <!-- 타이틀-->
+        <div class="header">
+            <h1>
+                <span>SVT</span> 사이버 방석 퀴즈<br><span style="font-size:15px; font-weight:100;">힙합팀</span>
+            </h1>    
+        </div>
+
+        <!-- 정답 선택-->
+        <div id="quiz">
+            <p id="question"></p> <!-- 질문-->
+
+            <ul id="choice_list" style="display: none;"> <!-- 답-->
+                <li>
+                    <button class="btn_quiz">
+                    </button>
+                </li>
+                <li>
+                    <button class="btn_quiz">
+                    </button>
+                </li>
+                <li>
+                    <button class="btn_quiz">
+                    </button>
+                </li>
+                <li>
+                    <button class="btn_quiz">
+                    </button>
+                </li>
+            </ul>
+        </div>
+        
+        <!-- 링크 공유-->
+        <div id="link" style="display: none;">
+            <div class="back_main">
+                <a href="javascript:history.go(-2)">
+                    <button class="btn_main">처음으로 돌아가기</button>
+                </a>
+            </div>
+            <div class="etc_link">
+                <a href="javascript:shareScore()" class="btn_link">
+                    트위터로 공유하기
+                </a>
+    
+                <a href="https://forms.gle/FpJBuXAhqjgYfHRc9" target="_blank" class="btn_docs">
+                    문제 출제 도와주기
+                </a>
+            </div>
+        </div>
+
+        <!-- 푸터-->
+        <footer>
+            <p>
+                twitter @hbd_project
+            </p>
+        </footer>
+    </body>
+
+    <script type="text/javascript" src="./js/hiphop.js"></script>
+</html>

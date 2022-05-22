@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'DungGeunMo';
+    src: local('DungGeunMo'),
+    url('DungGeunMo.eot'),
+    url('DungGeunMo.woff') format('woff'),
+    url('DungGeunMo.woff2') format('woff2');
+}
+
+.btn_quiz{
+    width: 300px;
+}
+
+.btn_quiz:hover{
+    background-color: #f8cacc;
+    color:white;
+}
